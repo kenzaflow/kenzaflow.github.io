@@ -1,0 +1,1 @@
+import{I as a}from"./IconApps-gtn5AG-b.js";import"./createReactComponent-5HZ3eZXj.js";import"./index-h1QH8epO.js";const r={appId:"launcher",name:"Aplicaciones",icon:a,alwaysInTaskbar:!0,alwaysOpened:!0,canMinimize:!1,hiddenInLauncher:!0};export{r as default};
