@@ -1,0 +1,6 @@
+import{d as p}from"./index-iJOU9LjR.js";function h(r){const e=r.toLowerCase().split("+").map(s=>s.trim()),t={alt:e.includes("alt"),ctrl:e.includes("ctrl"),meta:e.includes("meta"),mod:e.includes("mod"),shift:e.includes("shift"),plus:e.includes("[plus]")},l=["alt","ctrl","meta","shift","mod"],a=e.find(s=>!l.includes(s));return{...t,key:a==="[plus]"?"+":a}}function K(r,e,t){const{alt:l,ctrl:a,meta:s,mod:c,shift:f,key:n}=r,{altKey:u,ctrlKey:o,metaKey:i,shiftKey:d,key:y,code:m}=e;if(l!==u)return!1;if(c){if(!o&&!i)return!1}else if(a!==o||s!==i)return!1;return f!==d?!1:!!(n&&(!t&&y.toLowerCase()===n.toLowerCase()||m.replace("Key","").toLowerCase()===n.toLowerCase()))}function k(r,e){return t=>K(h(r),t,e)}function C(r){return e=>{const t="nativeEvent"in e?e.nativeEvent:e;r.forEach(([l,a,s={preventDefault:!0,usePhysicalKeys:!1}])=>{k(l,s.usePhysicalKeys)(t)&&(s.preventDefault&&e.preventDefault(),a(t))})}}/**
+ * @license @tabler/icons-react v3.29.0 - MIT
+ *
+ * This source code is licensed under the MIT license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var w=p("outline","star","IconStar",[["path",{d:"M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z",key:"svg-0"}]]);export{w as I,C as g};

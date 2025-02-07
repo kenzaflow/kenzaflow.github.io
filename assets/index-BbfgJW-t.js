@@ -1,0 +1,1 @@
+import{j as t}from"./index-iJOU9LjR.js";import{u as r,W as s}from"./use-manifest-DNP09E0r.js";import"./use-colors-BxM1ci3V.js";import"./noise-BnVVm7Zg.js";function m(){const o=r("black-hole");return t.jsx(s,{manifest:o,children:t.jsx(t.Fragment,{})})}export{m as default};
